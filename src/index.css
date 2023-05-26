@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap")
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: #6ac686;
+}
+
+a {
+  text-decoration: none;
+  color: #384358;
+}
+
+a:hover {
+  color: #6ac686;
+}
+
+.react-tabs__tab--selected {
+  color: #6ac686 !important;
+}
+
+.navbar {
+  width: unset;
+  justify-content: space-between;
+}
+.ccontainer {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+input {
+  padding-right: unset !important;
+}
